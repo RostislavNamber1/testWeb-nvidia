@@ -1,0 +1,60 @@
+/* Безопасные шрифты
+font-family: "Arial";
+font-family: "Times New Roman";
+font-family: "Courier New";
+font-family: "Courier";
+font-family: "Verdana";
+font-family: "Georgia";
+font-family: "Palatino";
+font-family: "Garamond";
+font-family: "Bookman";
+font-family: "Tahoma";
+font-family: "Trebuchet";
+font-family: "Arial Black";
+font-family: "Impact";
+font-family: "Comic Sans MS";
+ */
+h1{
+   font-family: 'Play', "sans-serif";
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 66px;
+   color: $color-text;
+}
+h2{
+   font-family: 'Play', "sans-serif";
+   font-size: 33px;
+   line-height: 53px;
+   color: $color-text;
+}
+h3{
+  width: 100%;
+  font-family: 'Play', "sans-serif";
+  font-size: 26px;
+  line-height: 36px;
+  color: $color-text;
+  text-align: left;
+}
+h4{
+  font-family: 'Roboto', "sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 34px;
+  color: $color-text;
+}
+body{
+  font-family: 'Roboto', "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $color-text;
+}
+h6{}
+p{
+   font-family: 'Roboto', "sans-serif";
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 24px;
+   color: $color-text;
+}
+span{}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import "utils/variables";/*Тут храняться переменные*/
+@import "icon";/*Тут храняться переменные*/
+/* резет команды */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* сокращенный сброс настроек кнопок во всех браузерах */
+body {
+  /* плавный скрол */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: $color-body;
+  font-family: 'Roboto', "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
